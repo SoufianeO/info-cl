@@ -19,6 +19,7 @@
     "@angular/platform-browser": "~10.1.0",
     "@angular/platform-browser-dynamic": "~10.1.0",
     "@angular/router": "~10.1.0",
+    "@syncfusion/ej2-angular-schedule": "^18.2.59",
     "bootswatch": "^4.5.2",
     "chart.js": "^2.9.3",
     "jsgantt-improved": "^2.5.10",
