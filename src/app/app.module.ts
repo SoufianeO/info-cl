@@ -12,6 +12,7 @@ import { FormBuilder, FormsModule } from '@angular/forms';
 import { ChartsComponent } from './components/charts/charts.component';
 import { NgGanttEditorModule } from 'ng-gantt';
 import { NavbarComponent } from './shared/navbar/navbar.component';
+import { ScheduleModule, AgendaService, DayService, WeekService, WorkWeekService, MonthService, DragAndDropService, ResizeService } from "@syncfusion/ej2-angular-schedule"
 
 @NgModule({
   declarations: [
@@ -26,9 +27,18 @@ import { NavbarComponent } from './shared/navbar/navbar.component';
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    NgGanttEditorModule
+    NgGanttEditorModule,
+    ScheduleModule
   ],
-  providers: [FormBuilder],
+  providers: [FormBuilder, 
+    AgendaService, 
+    DayService, 
+    WeekService, 
+    WorkWeekService, 
+    MonthService,
+    DragAndDropService,
+    ResizeService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
