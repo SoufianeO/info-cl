@@ -3,7 +3,7 @@
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.0.
 
 # Demo
-![alt text](https://github.com/SoufianeO/info-cl/blob/master/screen.gif?raw=true)
+![alt text](https://github.com/SoufianeO/info-cl/blob/master/demo.gif?raw=true)
 
 ## Development server
 
